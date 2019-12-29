@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetExternalIp", "GetExterna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetScheduledTask", "GetScheduledTask\GetScheduledTask.csproj", "{F683E581-78D6-4DD4-A683-16C2A71E359E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateScheduledTask", "CreateScheduledTask\CreateScheduledTask.csproj", "{69A56FED-9134-4879-9536-12D49B2BBB0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{F683E581-78D6-4DD4-A683-16C2A71E359E}.Release|x64.Build.0 = Release|x64
 		{F683E581-78D6-4DD4-A683-16C2A71E359E}.Release|x86.ActiveCfg = Release|x86
 		{F683E581-78D6-4DD4-A683-16C2A71E359E}.Release|x86.Build.0 = Release|x86
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Debug|x64.Build.0 = Debug|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Debug|x86.Build.0 = Debug|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Release|x64.ActiveCfg = Release|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Release|x64.Build.0 = Release|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Release|x86.ActiveCfg = Release|Any CPU
+		{69A56FED-9134-4879-9536-12D49B2BBB0F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
