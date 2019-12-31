@@ -5,9 +5,9 @@ namespace GetExternalIp
 {
     public static class Task
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            string ip = IPAddress.GetExternalIP();
+            var ip = IpAddress.GetExternalIp();
             Console.WriteLine(ip);
         }
     }

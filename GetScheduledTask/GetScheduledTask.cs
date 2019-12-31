@@ -1,14 +1,13 @@
 ﻿using SharpTasks.Execution;
 using System;
-using System.Collections.Generic;
 
 namespace GetScheduledTask
 {
     public static class Task
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            List<ScheduledTask.ScheduledTaskResult> tasks = ScheduledTask.GetScheduledTasks(args[0]);
+            var tasks = ScheduledTask.GetScheduledTasks(args[0]);
 
             if (tasks != null && args.Length > 1)
             {
